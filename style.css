@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.global-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.button1{
+    
+    align-self: center;
+
+}
+.title {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #ddd;
+}
